@@ -1,7 +1,7 @@
 require 'pry'
 
 def speak_to_grandma(phrase)
-  if phrase.upcase
+  if phrase.upcase?
     return "HUH?! SPEAK UP, SONNY!"
 
     # return "I LOVE YOU TOO PUMPKIN"
