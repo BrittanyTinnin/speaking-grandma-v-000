@@ -1,7 +1,7 @@
 require 'pry'
 
 def speak_to_grandma(phrase)
-  if phrase.upcase?
+  if !phrase.upcase?
     puts "HUH?! SPEAK UP, SONNY!"
     binding.pry
   elsif phrase.upcase
