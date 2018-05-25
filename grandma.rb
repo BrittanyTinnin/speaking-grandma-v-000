@@ -2,11 +2,11 @@ require 'pry'
 
 def speak_to_grandma(phrase)
   if phrase.upcase?
-    return "HUH?! SPEAK UP, SONNY!"
+    puts "HUH?! SPEAK UP, SONNY!"
   elsif phrase.upcase
-    return "NO, NOT SINCE 1938!"
+    puts "NO, NOT SINCE 1938!"
   else phrase == "I LOVE YOU GRANDMA!"
-    return   # return "I LOVE YOU TOO PUMPKIN"
+    puts   # return "I LOVE YOU TOO PUMPKIN"
   end
 end
 
