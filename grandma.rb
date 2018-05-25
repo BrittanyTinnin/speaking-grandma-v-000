@@ -3,8 +3,8 @@ require 'pry'
 phrase ="I LOVE YOU GRANDMA!"
 def speak_to_grandma(phrase)
   if phrase
-    
-    return "I LOVE YOU TOO PUMPKIN"
+
+    # return "I LOVE YOU TOO PUMPKIN"
 end
 
 # Write a speak_to_grandma method.
